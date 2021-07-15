@@ -65,15 +65,12 @@ class CannonBall
         image(this.animation[index1],0,0, this.r, this.r);
         pop();
 
-
-        if (
-            this.body.velocity.x > 0 &&
-            this.body.position.x > 300 &&
-            !this.isSink
-          ) {
+  if(this.body.velocity.x > 0 && this.body.position.x > 180)
+        {
             var position = [this.body.position.x, this.body.position.y];
             this.trajectory.push(position);
-          }
+        }
+
 
         for(var i=0; i<this.trajectory.length; i++)
         {
