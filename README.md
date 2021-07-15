@@ -1,1 +1,2 @@
-# C28-Error-file
+# PiratesInvasionStage-0.5
+boiler plate code
